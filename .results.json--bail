@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 3,
+    "passes": 1,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-02-25T11:54:35.752Z",
+    "end": "2025-02-25T11:54:36.088Z",
+    "duration": 336
+  },
+  "tests": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is less than 40 and greater than 0",
+      "fullTitle": "what-is-a-test Height is less than 40 and greater than 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/indexTest.js:15:22)\n    at process.processImmediate (node:internal/timers:491:21)",
+        "message": "Expected 74 to be less than 40"
+      }
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 'Susan\\'s height must be greater than 0 and less than 40 inches.' to include 74\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toInclude (node_modules/expect/lib/Expectation.js:215:28)\n    at Context.<anonymous> (test/indexTest.js:22:23)\n    at process.processImmediate (node:internal/timers:491:21)",
+        "message": "Expected 'Susan\\'s height must be greater than 0 and less than 40 inches.' to include 74"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is less than 40 and greater than 0",
+      "fullTitle": "what-is-a-test Height is less than 40 and greater than 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/indexTest.js:15:22)\n    at process.processImmediate (node:internal/timers:491:21)",
+        "message": "Expected 74 to be less than 40"
+      }
+    },
+    {
+      "title": "gives the name and height",
+      "fullTitle": "what-is-a-test Message gives the name and height",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected 'Susan\\'s height must be greater than 0 and less than 40 inches.' to include 74\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toInclude (node_modules/expect/lib/Expectation.js:215:28)\n    at Context.<anonymous> (test/indexTest.js:22:23)\n    at process.processImmediate (node:internal/timers:491:21)",
+        "message": "Expected 'Susan\\'s height must be greater than 0 and less than 40 inches.' to include 74"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns \"Susan\"",
+      "fullTitle": "what-is-a-test Name returns \"Susan\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
